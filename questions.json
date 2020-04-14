@@ -1,0 +1,46 @@
+{
+    "Understanding Your Day-To-Day": {
+        "subtext": "Your doctor wants to know about your daily living to better assess what you will need before and after your surgery.",
+        "questions": [
+            {
+                "id": 1,
+                "slug": "ri_preclinical-1",
+                "type": "radio_select",
+                "subsection": "Lifestyle",
+                "response_enums": [
+                    {
+                        "value": true,
+                        "display": "Yes"
+                    },
+                    {
+                        "value": false,
+                        "display": "No"
+                    }
+                ],
+                "prompt": "Will you live with someone who can take care of you after the operation?"
+            }
+        ]
+    },
+    "Understanding Your Medical History": {
+        "subtext": "Your doctor needs to know about your health to better address your needs in and out of the operating room.",
+        "questions": [
+            {
+                "id": 2,
+                "slug": "ri_preclinical-2",
+                "type": "radio_select",
+                "subsection": "General",
+                "response_enums": [
+                    {
+                        "value": 1,
+                        "display": "<1 mi."
+                    },
+                    {
+                        "value": 2,
+                        "display": ">1mi."
+                    }
+                ],
+                "prompt": "How far on average can you walk?"
+            }
+        ]
+    }
+}
