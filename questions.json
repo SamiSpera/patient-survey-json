@@ -6,7 +6,7 @@
 							"id": 124,
 							"slug": "preop1-0",
 							"type": "date_array",
-							"subsection": null,
+							"subsection": "Availability",
 							"response_enums": [
 									{
 											"value": null,
@@ -1009,7 +1009,7 @@
 							"id": 115,
 							"slug": "preop1-48",
 							"type": "dropdown",
-							"subsection": null,
+							"subsection": "Mental",
 							"response_enums": [
 									{
 											"value": 0.0,
@@ -1034,7 +1034,7 @@
 							"id": 116,
 							"slug": "preop1-49",
 							"type": "dropdown",
-							"subsection": null,
+							"subsection": "Mental",
 							"response_enums": [
 									{
 											"value": 0.0,
@@ -1059,7 +1059,7 @@
 							"id": 117,
 							"slug": "preop1-50",
 							"type": "dropdown",
-							"subsection": null,
+							"subsection": "Mental",
 							"response_enums": [
 									{
 											"value": 0.0,
@@ -1084,7 +1084,7 @@
 							"id": 118,
 							"slug": "preop1-51",
 							"type": "dropdown",
-							"subsection": null,
+							"subsection": "Mental",
 							"response_enums": [
 									{
 											"value": 0.0,
@@ -1109,7 +1109,7 @@
 							"id": 119,
 							"slug": "preop1-52",
 							"type": "dropdown",
-							"subsection": null,
+							"subsection": "Mental",
 							"response_enums": [
 									{
 											"value": 0.0,
@@ -1134,7 +1134,7 @@
 							"id": 120,
 							"slug": "preop1-53",
 							"type": "dropdown",
-							"subsection": null,
+							"subsection": "Mental",
 							"response_enums": [
 									{
 											"value": 0.0,
@@ -1159,7 +1159,7 @@
 							"id": 121,
 							"slug": "preop1-54",
 							"type": "dropdown",
-							"subsection": null,
+							"subsection": "Mental",
 							"response_enums": [
 									{
 											"value": 0.0,
@@ -1184,7 +1184,7 @@
 							"id": 122,
 							"slug": "preop1-55",
 							"type": "dropdown",
-							"subsection": null,
+							"subsection": "Mental",
 							"response_enums": [
 									{
 											"value": 0.0,
@@ -1209,7 +1209,7 @@
 							"id": 123,
 							"slug": "preop1-56",
 							"type": "dropdown",
-							"subsection": null,
+							"subsection": "Mental",
 							"response_enums": [
 									{
 											"value": 0.0,
