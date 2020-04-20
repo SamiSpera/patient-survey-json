@@ -1,946 +1,946 @@
+[{
+	"title": "Understanding Your Day-to-Day",
+	"subtext": "Your doctor wants to know about your daily living to better assess what you will need before and after your surgery.",
+	"subsections" : [
+		{
+			"subsection": "Lifestyle",
+			"icon": "lifestyle",
+			"questions": [
+				{
+					"id": 58,
+					"slug": "preop-2",
+					"prompt": "Do you currently live alone?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 1,
+							"display": "Yes"
+						},
+						{
+							"value": 0,
+							"display": "No"
+						}
+					]
+				},
+				{
+					"id": 67,
+					"slug": "preop-4",
+					"prompt": "Will there be anyone available to help you at home at discharge?",
+					"type": "",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 1,
+							"display": "Yes"
+						},
+						{
+							"value": 0,
+							"display": "No"
+						}
+					]
+				},
+				{
+					"id": 70,
+					"slug": "preop1-5",
+					"prompt": "How many hours a day will they be available to help?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+								"value": 0,
+								"display": "4 hours or less"
+						},
+						{
+								"value": 1,
+								"display": "5-8 hours a day"
+						},
+						{
+								"value": 2,
+								"display": "12 hours a day"
+						},
+						{
+								"value": 3,
+								"display": "24 hours a day"
+						}
+					]
+				}
+			]
+		},
+		{
+			"subsection": "Pain",
+			"icon": "pain",
+			"questions": [
+				{
+					"id": 125,
+					"slug": "",
+					"prompt": "Are you currently taking narcotics for pain?",
+					"type": "",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 1,
+							"display": "Yes"
+						},
+						{
+							"value": 0,
+							"display": "No"
+						}
+					]
+				},
+				{
+					"id": 126,
+					"slug": "",
+					"prompt": "In the last 2 weeks, have you had to increase your narcotics intake?",
+					"type": "",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 1,
+							"display": "Yes"
+						},
+						{
+							"value": 0,
+							"display": "No"
+						}
+					]
+				}
+			]
+		},
+		{
+			"subsection": "Functionality",
+			"icon": "functionality",
+			"questions": [
+				{
+					"id": 77,
+					"slug": "preop1-10",
+					"prompt": "Have you had any recent falls?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 0,
+							"display": "Not in last 12 months"
+						},
+						{
+							"value": 1,
+							"display": "1 or more between 3 - 12 months ago"
+						},
+						{
+							"value": 2,
+							"display": "1 or more in last 3 months"
+						}
+					]
+				},
+				{
+					"id": 128,
+					"slug": "",
+					"prompt": "Are you fearful of falling?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 1,
+							"display": "Yes"
+						},
+						{
+							"value": 0,
+							"display": "No"
+						}
+					]
+				},
+				{
+					"id": 78,
+					"slug": "preop1-11",
+					"prompt": "Indicate the degree of difficulty you have experienced in the last week due to your joint while rising from sitting.",
+					"type": "dropdown",
+					"subsection": "Functionality",
+					"response_enums": [
+						{
+						"value": -1,
+						"display": ""
+						},
+						{
+							"value": 0,
+							"display": "None"
+						},
+						{
+							"value": 1,
+							"display": "Mild"
+						},
+						{
+							"value": 2,
+							"display": "Moderate"
+						},
+						{
+							"value": 3,
+							"display": "Severe"
+						},
+						{
+							"value": 4,
+							"display": "Extreme"
+						}
+					]
+				},
+				{
+					"id": 79,
+					"slug": "preop1-12",
+					"prompt": "Indicate the degree of difficulty you have experienced in the last week due to your joint while bending to the floor or picking up an object.",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 0,
+							"display": "None"
+						},
+						{
+							"value": 1,
+							"display": "Mild"
+						},
+						{
+							"value": 2,
+							"display": "Moderate"
+						},
+						{
+							"value": 3,
+							"display": "Severe"
+						},
+						{
+							"value": 4,
+							"display": "Extreme"
+						}
+					]
+				}
+			]
+		}
+	]
+},
 {
-		"title": "Understanding Your Day-to-Day",
-		"subtext": "Your doctor wants to know about your daily living to better assess what you will need before and after your surgery.",
-		"subsections" : [
-							{
-								"subsection": "Lifestyle",
-								"icon": "lifestyle",
-								"questions": [
-												{
-													"id": 58,
-													"slug": "preop-2",
-													"prompt": "Do you currently live alone?",
-													"type": "dropdown",
-													"response_enums": [
+	"title": "Understanding Your Medical History",
+	"subtext": "Your doctor needs to know about your health to better address your needs in and out of the operating room.",
+	"subsections" : [
+						{
+							"subsection": "General",
+							"icon": "general",
+							"questions": [
 														{
-															"value": -1,
-															"display": ""
+																"id": 80,
+																"slug": "preop1-13",
+																"prompt": "What is your current height?",
+																"type": "input",
+																"response_enums": null
 														},
 														{
-															"value": 1,
-															"display": "Yes"
+																"id": 81,
+																"slug": "preop1-14",
+																"type": "input",
+																"prompt": "What is your current weight?",
+																"response_enums": null
 														},
 														{
-															"value": 0,
-															"display": "No"
+																"id": 82,
+																"slug": "preop1-15",
+																"type": "dropdown",
+																"prompt": "Do you smoke?",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 2,
+																				"display": "Current Smoker"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Previous Smoker"
+																		},
+																		{
+																				"value": 0,
+																				"display": "Never Smoked"
+																		}
+																]
 														}
-													]
-												},
-												{
-													"id": 67,
-													"slug": "preop-4",
-													"prompt": "Will there be anyone available to help you at home at discharge?",
-													"type": "",
-													"response_enums": [
+												]
+
+						},
+						{
+							"subsection": "Heart and Vascular Conditions",
+							"icon": "heart_and_vascular_conditions",
+							"questions": [
 														{
-															"value": -1,
-															"display": ""
+																"id": 87,
+																"slug": "preop1-20",
+																"prompt": "Have you ever had a Heart Attack/Myocardial Infarction (MI) or a Coronary Artery Bypass Surgery?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 1,
+																				"display": "Yes"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
 														},
 														{
-															"value": 1,
-															"display": "Yes"
+																"id": 88,
+																"slug": "preop1-21",
+																"prompt": "Do you have Atrial Fibrilation (A-Fib)?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 1,
+																				"display": "Yes"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
 														},
 														{
-															"value": 0,
-															"display": "No"
+																"id": 89,
+																"slug": "preop1-22",
+																"prompt": "Do you have Congestive Heart Failure (CHF)?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 2,
+																				"display": "Yes, currently being treated by a doctor"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Yes, not being treated by a doctor"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+														{
+																"id": 90,
+																"slug": "preop1-23",
+																"prompt": "Do you have High Cholesterol/Lipids?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 2,
+																				"display": "Yes, currently being treated by a doctor"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Yes, not being treated by a doctor"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+														{
+																"id": 91,
+																"slug": "preop1-24",
+																"prompt": "Do you have High Blood Pressure or Hypertension?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 2,
+																				"display": "Yes, currently being treated by a doctor"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Yes, not being treated by a doctor"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+														{
+																"id": 92,
+																"slug": "preop1-25",
+																"prompt": "Do you have a history of a Cerebrovascular Accident (CVA) or Stroke?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 2,
+																				"display": "Yes, currently being treated by a doctor"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Yes, not being treated by a doctor"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+														{
+																"id": 93,
+																"slug": "preop1-26",
+																"prompt": "Do you have Diabetes?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 2,
+																				"display": "Yes, currently being treated by a doctor"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Yes, not being treated by a doctor"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+														{
+																"id": 94,
+																"slug": "preop1-27",
+																"prompt": "Do you have a history of Pulmonary Embolism (PE), Deep Vein Thrombosis (DVT) or other clotting disorders?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 2,
+																				"display": "Yes, currently being treated by a doctor"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Yes, not being treated by a doctor"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+														{
+																"id": 95,
+																"slug": "preop1-28",
+																"prompt": "Do you have Peripheral Vascular Disease, sores, or ulcers on your legs?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 2,
+																				"display": "Yes, currently being treated by a doctor"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Yes, not being treated by a doctor"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+														{
+																"id": 96,
+																"slug": "preop1-29",
+																"prompt": "Do you have Kidney Disease/Failure?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 2,
+																				"display": "Yes, currently being treated by a doctor"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Yes, not being treated by a doctor"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														} 
+												]
+
+						},
+						{
+							"subsection": "Breathing Disorders",
+							"icon": "breathing_disorders",
+							"questions": [
+														{
+																"id": 97,
+																"slug": "preop1-30",
+																"prompt": "Do you have Asthma, COPD or other breathing problems?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 2,
+																				"display": "Yes, currently being treated by a doctor"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Yes, not being treated by a doctor"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+														{
+																"id": 98,
+																"slug": "preop1-31",
+																"prompt": "Do you have Sleep Apnea?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 2,
+																				"display": "Yes, currently being treated by a doctor"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Yes, not being treated by a doctor"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+												]
+
+						},
+						{
+							"subsection": "Blood or Cancer Disorders",
+							"icon": "blood_or_cancer_disorders",
+							"questions": [    
+														{
+																"id": 105,
+																"slug": "preop1-38",
+																"prompt": "Have you been diagnosed with Cancer?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 2,
+																				"display": "Current"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Past"
+																		},
+																		{
+																				"value": 0,
+																				"display": "Never"
+																		}
+																]
+														},
+														{
+																"id": 106,
+																"slug": "preop1-39",
+																"prompt": "Do you have any bleeding disorders like Hemophilia, Factor or Platelet Deficiencies, Idiopathic Thrombocytopenic Purpura (ITP) or Von Willebrand's Disease?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 2,
+																				"display": "Yes, currently being treated by a doctor"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Yes, not being treated by a doctor"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+														{
+																"id": 107,
+																"slug": "preop1-40",
+																"prompt": "Do you have a form of Hyperthyroidism like Graves' disease?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 2,
+																				"display": "Yes, currently being treated by a doctor"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Yes, not being treated by a doctor"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+														{
+																"id": 108,
+																"slug": "preop1-41",
+																"prompt": "Do you have a form of Hypothyroidism like Hashimoto's disease?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 2,
+																				"display": "Yes, currently being treated by a doctor"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Yes, not being treated by a doctor"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+												]
+
+						},
+						{
+							"subsection": "Infections",
+							"icon": "infections",
+							"questions": [
+														{
+																"id": 110,
+																"slug": "preop1-43",
+																"prompt": "Do you have Hepatitis?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 2,
+																				"display": "Yes, currently being treated by a doctor"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Yes, not being treated by a doctor"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+														{
+																"id": 111,
+																"slug": "preop1-44",
+																"prompt": "Do you have HIV?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 2,
+																				"display": "Yes, currently being treated by a doctor"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Yes, not being treated by a doctor"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+														{
+																"id": 112,
+																"slug": "preop1-45",
+																"prompt": "Do you have a history of Urinary Tract Infections?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 1,
+																				"display": "Yes"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+														{
+																"id": 113,
+																"slug": "preop1-46",
+																"prompt": "Do you have a history of antibiotic resistant infections (such as MRSA/MSSA)?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 1,
+																				"display": "Yes"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+														{
+																"id": 114,
+																"slug": "preop1-47",
+																"prompt": "Have you been having issues with Dental Infections?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 1,
+																				"display": "Yes"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
 														}
-													]
-												},
-									            {
-									                "id": 70,
-									                "slug": "preop1-5",
-									                "prompt": "How many hours a day will they be available to help?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
+												]
+						},
+						{
+							"subsection": "COVID-19",
+							"icon": "covid_19",
+							"questions": [
+														{
+																"id": 129,
+																"slug": "",
+																"prompt": "Within the preceding 6 months, have you traveled outside of the United States or immigrated to the United States?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 1,
+																				"display": "Yes"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
 														},
-									                    {
-									                        "value": 0,
-									                        "display": "4 hours or less"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "5-8 hours a day"
-									                    },
-									                    {
-									                        "value": 2,
-									                        "display": "12 hours a day"
-									                    },
-									                    {
-									                        "value": 3,
-									                        "display": "24 hours a day"
-									                    }
-									                ],
-									            },
-											]
+														{
+																"id": 130,
+																"slug": "",
+																"prompt": "Do you currently have any of the following symptoms? (Check all that apply)",
+																"type": "checkbox",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 0,
+																				"display": "None"
+																		},
+																		{
+																				"value": 1,
+																				"display": "Fever"
+																		},
+																		{
+																				"value": 2,
+																				"display": "Cough"
+																		},
+																		{
+																				"value": 3,
+																				"display": "Sore Throat"
+																		},
+																		{
+																				"value": 4,
+																				"display": "Shortness of Breath"
+																		},
+																]
+														},
+														{
+																"id": 131,
+																"slug": "",
+																"prompt": "In the last 14 days before symptom onset (if any), were you in close contact with a person who has, or is under investigation for COVID-19?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 1,
+																				"display": "Yes"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+														{
+																"id": 132,
+																"slug": "",
+																"prompt": "In the last 14 days before symptom onset (if any), did you spend time in China/Iran/Ireland/Italy/Japan/South Korea/United Kingdom and/or any other country in Europe?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 1,
+																				"display": "Yes"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+														{
+																"id": 133,
+																"slug": "",
+																"prompt": "In the last 14 days before symptom onset (if any), have you been on a cruise ship (including river cruises)?",
+																"type": "dropdown",
+																"response_enums": [
+																	{
+														"value": -1,
+														"display": ""
+													},
+																		{
+																				"value": 1,
+																				"display": "Yes"
+																		},
+																		{
+																				"value": 0,
+																				"display": "No"
+																		}
+																]
+														},
+					{
+						"id": 134,
+						"slug": "preop1-42",
+						"prompt": "Have you been diagnosed with COVID-19?",
+						"type": "dropdown",
+						"response_enums": [
+							{
+								"value": -1,
+								"display": ""
 							},
 							{
-								"subsection": "Pain",
-								"icon": "pain",
-								"questions": [
-												{
-													"id": 125,
-													"slug": "",
-													"prompt": "Are you currently taking narcotics for pain?",
-													"type": "",
-													"response_enums": [
-														{
-															"value": -1,
-															"display": ""
-														},
-														{
-															"value": 1,
-															"display": "Yes"
-														},
-														{
-															"value": 0,
-															"display": "No"
-														}
-													]
-												},
-												{
-													"id": 126,
-													"slug": "",
-													"prompt": "In the last 2 weeks, have you had to increase your narcotics intake?",
-													"type": "",
-													"response_enums": [
-														{
-															"value": -1,
-															"display": ""
-														},
-														{
-															"value": 1,
-															"display": "Yes"
-														},
-														{
-															"value": 0,
-															"display": "No"
-														}
-													]
-												}
-											]
+									"value": 2,
+									"display": "Yes, I currently have it"
 							},
 							{
-								"subsection": "Functionality",
-								"icon": "functionality",
-								"questions": [
-												{
-									                "id": 77,
-									                "slug": "preop1-10",
-									                "prompt": "Have you had any recent falls?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 0,
-									                        "display": "Not in last 12 months"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "1 or more between 3 - 12 months ago"
-									                    },
-									                    {
-									                        "value": 2,
-									                        "display": "1 or more in last 3 months"
-									                    }
-									                ]
-									            },
-									            {
-													"id": 128,
-													"slug": "",
-													"prompt": "Are you fearful of falling?",
-													"type": "dropdown",
-													"response_enums": [
-														{
-															"value": -1,
-															"display": ""
-														},
-														{
-															"value": 1,
-															"display": "Yes"
-														},
-														{
-															"value": 0,
-															"display": "No"
-														}
-													]
-												},
-									            {
-									                "id": 78,
-									                "slug": "preop1-11",
-									               	"prompt": "Indicate the degree of difficulty you have experienced in the last week due to your joint while rising from sitting.",
-									                "type": "dropdown",
-									                "subsection": "Functionality",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 0,
-									                        "display": "None"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Mild"
-									                    },
-									                    {
-									                        "value": 2,
-									                        "display": "Moderate"
-									                    },
-									                    {
-									                        "value": 3,
-									                        "display": "Severe"
-									                    },
-									                    {
-									                        "value": 4,
-									                        "display": "Extreme"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 79,
-									                "slug": "preop1-12",
-									                "prompt": "Indicate the degree of difficulty you have experienced in the last week due to your joint while bending to the floor or picking up an object.",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 0,
-									                        "display": "None"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Mild"
-									                    },
-									                    {
-									                        "value": 2,
-									                        "display": "Moderate"
-									                    },
-									                    {
-									                        "value": 3,
-									                        "display": "Severe"
-									                    },
-									                    {
-									                        "value": 4,
-									                        "display": "Extreme"
-									                    }
-									                ]
-									            }
-											]
-							},
-
-						]
-	},
-	{
-		"title": "Understanding Your Medical History",
-		"subtext": "Your doctor needs to know about your health to better address your needs in and out of the operating room.",
-		"subsections" : [
-							{
-								"subsection": "General",
-								"icon": "general",
-								"questions": [
-									            {
-									                "id": 80,
-									                "slug": "preop1-13",
-									                "prompt": "What is your current height?",
-									                "type": "input",
-									                "response_enums": null
-									            },
-									            {
-									                "id": 81,
-									                "slug": "preop1-14",
-									                "type": "input",
-									                "prompt": "What is your current weight?",
-									                "response_enums": null
-									            },
-									            {
-									                "id": 82,
-									                "slug": "preop1-15",
-									                "type": "dropdown",
-									                "prompt": "Do you smoke?",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Current Smoker"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Previous Smoker"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "Never Smoked"
-									                    }
-									                ]
-									            }
-									        ]
-
+									"value": 1,
+									"display": "Yes, I have recovered from it"
 							},
 							{
-								"subsection": "Heart and Vascular Conditions",
-								"icon": "heart_and_vascular_conditions",
-								"questions": [
-									            {
-									                "id": 87,
-									                "slug": "preop1-20",
-									                "prompt": "Have you ever had a Heart Attack/Myocardial Infarction (MI) or a Coronary Artery Bypass Surgery?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 1,
-									                        "display": "Yes"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 88,
-									                "slug": "preop1-21",
-									                "prompt": "Do you have Atrial Fibrilation (A-Fib)?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 1,
-									                        "display": "Yes"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 89,
-									                "slug": "preop1-22",
-									                "prompt": "Do you have Congestive Heart Failure (CHF)?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Yes, currently being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Yes, not being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 90,
-									                "slug": "preop1-23",
-									                "prompt": "Do you have High Cholesterol/Lipids?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Yes, currently being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Yes, not being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 91,
-									                "slug": "preop1-24",
-									                "prompt": "Do you have High Blood Pressure or Hypertension?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Yes, currently being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Yes, not being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 92,
-									                "slug": "preop1-25",
-									                "prompt": "Do you have a history of a Cerebrovascular Accident (CVA) or Stroke?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Yes, currently being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Yes, not being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 93,
-									                "slug": "preop1-26",
-									                "prompt": "Do you have Diabetes?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Yes, currently being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Yes, not being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 94,
-									                "slug": "preop1-27",
-									                "prompt": "Do you have a history of Pulmonary Embolism (PE), Deep Vein Thrombosis (DVT) or other clotting disorders?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Yes, currently being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Yes, not being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 95,
-									                "slug": "preop1-28",
-									                "prompt": "Do you have Peripheral Vascular Disease, sores, or ulcers on your legs?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Yes, currently being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Yes, not being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 96,
-									                "slug": "preop1-29",
-									                "prompt": "Do you have Kidney Disease/Failure?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Yes, currently being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Yes, not being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            } 
-									        ]
-
-							},
-							{
-								"subsection": "Breathing Disorders",
-								"icon": "breathing_disorders",
-								"questions": [
-									            {
-									                "id": 97,
-									                "slug": "preop1-30",
-									                "prompt": "Do you have Asthma, COPD or other breathing problems?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Yes, currently being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Yes, not being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 98,
-									                "slug": "preop1-31",
-									                "prompt": "Do you have Sleep Apnea?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Yes, currently being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Yes, not being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									        ]
-
-							},
-							{
-								"subsection": "Blood or Cancer Disorders",
-								"icon": "blood_or_cancer_disorders",
-								"questions": [    
-									            {
-									                "id": 105,
-									                "slug": "preop1-38",
-									                "prompt": "Have you been diagnosed with Cancer?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Current"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Past"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "Never"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 106,
-									                "slug": "preop1-39",
-									                "prompt": "Do you have any bleeding disorders like Hemophilia, Factor or Platelet Deficiencies, Idiopathic Thrombocytopenic Purpura (ITP) or Von Willebrand's Disease?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Yes, currently being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Yes, not being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 107,
-									                "slug": "preop1-40",
-									                "prompt": "Do you have a form of Hyperthyroidism like Graves' disease?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Yes, currently being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Yes, not being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 108,
-									                "slug": "preop1-41",
-									                "prompt": "Do you have a form of Hypothyroidism like Hashimoto's disease?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Yes, currently being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Yes, not being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									        ]
-
-							},
-							{
-								"subsection": "Infections",
-								"icon": "infections",
-								"questions": [
-									            {
-									                "id": 110,
-									                "slug": "preop1-43",
-									                "prompt": "Do you have Hepatitis?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Yes, currently being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Yes, not being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 111,
-									                "slug": "preop1-44",
-									                "prompt": "Do you have HIV?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Yes, currently being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Yes, not being treated by a doctor"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 112,
-									                "slug": "preop1-45",
-									                "prompt": "Do you have a history of Urinary Tract Infections?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 1,
-									                        "display": "Yes"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 113,
-									                "slug": "preop1-46",
-									                "prompt": "Do you have a history of antibiotic resistant infections (such as MRSA/MSSA)?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 1,
-									                        "display": "Yes"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 114,
-									                "slug": "preop1-47",
-									                "prompt": "Have you been having issues with Dental Infections?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 1,
-									                        "display": "Yes"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            }
-									        ]
-							},
-							{
-								"subsection": "COVID-19",
-								"icon": "covid_19",
-								"questions": [
-									            {
-									                "id": 129,
-									                "slug": "",
-									                "prompt": "Within the preceding 6 months, have you traveled outside of the United States or immigrated to the United States?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 1,
-									                        "display": "Yes"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 130,
-									                "slug": "",
-									                "prompt": "Do you currently have any of the following symptoms? (Check all that apply)",
-									                "type": "checkbox",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 0,
-									                        "display": "None"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Fever"
-									                    },
-									                    {
-									                        "value": 2,
-									                        "display": "Cough"
-									                    },
-									                    {
-									                        "value": 3,
-									                        "display": "Sore Throat"
-									                    },
-									                    {
-									                        "value": 4,
-									                        "display": "Shortness of Breath"
-									                    },
-									                ]
-									            },
-									            {
-									                "id": 131,
-									                "slug": "",
-									                "prompt": "In the last 14 days before symptom onset (if any), were you in close contact with a person who has, or is under investigation for COVID-19?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 1,
-									                        "display": "Yes"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 132,
-									                "slug": "",
-									                "prompt": "In the last 14 days before symptom onset (if any), did you spend time in China/Iran/Ireland/Italy/Japan/South Korea/United Kingdom and/or any other country in Europe?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 1,
-									                        "display": "Yes"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 133,
-									                "slug": "",
-									                "prompt": "In the last 14 days before symptom onset (if any), have you been on a cruise ship (including river cruises)?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 1,
-									                        "display": "Yes"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            },
-									            {
-									                "id": 134,
-									                "slug": "preop1-42",
-									                "prompt": "Have you been diagnosed with COVID-19?",
-									                "type": "dropdown",
-									                "response_enums": [
-									                	{
-															"value": -1,
-															"display": ""
-														},
-									                    {
-									                        "value": 2,
-									                        "display": "Yes, I currently have it"
-									                    },
-									                    {
-									                        "value": 1,
-									                        "display": "Yes, I have recovered from it"
-									                    },
-									                    {
-									                        "value": 0,
-									                        "display": "No"
-									                    }
-									                ]
-									            }
-									        ]
+									"value": 0,
+									"display": "No"
 							}
 						]
+					}
+				]
+			}
+		]
 	}
+]
