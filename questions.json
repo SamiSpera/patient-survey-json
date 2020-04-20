@@ -243,396 +243,393 @@
 	"title": "Understanding Your Medical History",
 	"subtext": "Your doctor needs to know about your health to better address your needs in and out of the operating room.",
 	"subsections" : [
+		{
+			"subsection": "General",
+			"icon": "general",
+			"questions": [
+				{
+					"id": 80,
+					"slug": "preop1-13",
+					"prompt": "What is your current height?",
+					"type": "input",
+					"response_enums": null
+				},
+				{
+					"id": 81,
+					"slug": "preop1-14",
+					"type": "input",
+					"prompt": "What is your current weight?",
+					"response_enums": null
+				},
+				{
+					"id": 82,
+					"slug": "preop1-15",
+					"type": "dropdown",
+					"prompt": "Do you smoke?",
+					"response_enums": [
 						{
-							"subsection": "General",
-							"icon": "general",
-							"questions": [
-														{
-																"id": 80,
-																"slug": "preop1-13",
-																"prompt": "What is your current height?",
-																"type": "input",
-																"response_enums": null
-														},
-														{
-																"id": 81,
-																"slug": "preop1-14",
-																"type": "input",
-																"prompt": "What is your current weight?",
-																"response_enums": null
-														},
-														{
-																"id": 82,
-																"slug": "preop1-15",
-																"type": "dropdown",
-																"prompt": "Do you smoke?",
-																"response_enums": [
-																	{
-														"value": -1,
-														"display": ""
-													},
-																		{
-																				"value": 2,
-																				"display": "Current Smoker"
-																		},
-																		{
-																				"value": 1,
-																				"display": "Previous Smoker"
-																		},
-																		{
-																				"value": 0,
-																				"display": "Never Smoked"
-																		}
-																]
-														}
-												]
-
+							"value": -1,
+							"display": ""
 						},
 						{
-							"subsection": "Heart and Vascular Conditions",
-							"icon": "heart_and_vascular_conditions",
-							"questions": [
-														{
-																"id": 87,
-																"slug": "preop1-20",
-																"prompt": "Have you ever had a Heart Attack/Myocardial Infarction (MI) or a Coronary Artery Bypass Surgery?",
-																"type": "dropdown",
-																"response_enums": [
-																	{
-														"value": -1,
-														"display": ""
-													},
-																		{
-																				"value": 1,
-																				"display": "Yes"
-																		},
-																		{
-																				"value": 0,
-																				"display": "No"
-																		}
-																]
-														},
-														{
-																"id": 88,
-																"slug": "preop1-21",
-																"prompt": "Do you have Atrial Fibrilation (A-Fib)?",
-																"type": "dropdown",
-																"response_enums": [
-																	{
-														"value": -1,
-														"display": ""
-													},
-																		{
-																				"value": 1,
-																				"display": "Yes"
-																		},
-																		{
-																				"value": 0,
-																				"display": "No"
-																		}
-																]
-														},
-														{
-																"id": 89,
-																"slug": "preop1-22",
-																"prompt": "Do you have Congestive Heart Failure (CHF)?",
-																"type": "dropdown",
-																"response_enums": [
-																	{
-														"value": -1,
-														"display": ""
-													},
-																		{
-																				"value": 2,
-																				"display": "Yes, currently being treated by a doctor"
-																		},
-																		{
-																				"value": 1,
-																				"display": "Yes, not being treated by a doctor"
-																		},
-																		{
-																				"value": 0,
-																				"display": "No"
-																		}
-																]
-														},
-														{
-																"id": 90,
-																"slug": "preop1-23",
-																"prompt": "Do you have High Cholesterol/Lipids?",
-																"type": "dropdown",
-																"response_enums": [
-																	{
-														"value": -1,
-														"display": ""
-													},
-																		{
-																				"value": 2,
-																				"display": "Yes, currently being treated by a doctor"
-																		},
-																		{
-																				"value": 1,
-																				"display": "Yes, not being treated by a doctor"
-																		},
-																		{
-																				"value": 0,
-																				"display": "No"
-																		}
-																]
-														},
-														{
-																"id": 91,
-																"slug": "preop1-24",
-																"prompt": "Do you have High Blood Pressure or Hypertension?",
-																"type": "dropdown",
-																"response_enums": [
-																	{
-														"value": -1,
-														"display": ""
-													},
-																		{
-																				"value": 2,
-																				"display": "Yes, currently being treated by a doctor"
-																		},
-																		{
-																				"value": 1,
-																				"display": "Yes, not being treated by a doctor"
-																		},
-																		{
-																				"value": 0,
-																				"display": "No"
-																		}
-																]
-														},
-														{
-																"id": 92,
-																"slug": "preop1-25",
-																"prompt": "Do you have a history of a Cerebrovascular Accident (CVA) or Stroke?",
-																"type": "dropdown",
-																"response_enums": [
-																	{
-														"value": -1,
-														"display": ""
-													},
-																		{
-																				"value": 2,
-																				"display": "Yes, currently being treated by a doctor"
-																		},
-																		{
-																				"value": 1,
-																				"display": "Yes, not being treated by a doctor"
-																		},
-																		{
-																				"value": 0,
-																				"display": "No"
-																		}
-																]
-														},
-														{
-																"id": 93,
-																"slug": "preop1-26",
-																"prompt": "Do you have Diabetes?",
-																"type": "dropdown",
-																"response_enums": [
-																	{
-														"value": -1,
-														"display": ""
-													},
-																		{
-																				"value": 2,
-																				"display": "Yes, currently being treated by a doctor"
-																		},
-																		{
-																				"value": 1,
-																				"display": "Yes, not being treated by a doctor"
-																		},
-																		{
-																				"value": 0,
-																				"display": "No"
-																		}
-																]
-														},
-														{
-																"id": 94,
-																"slug": "preop1-27",
-																"prompt": "Do you have a history of Pulmonary Embolism (PE), Deep Vein Thrombosis (DVT) or other clotting disorders?",
-																"type": "dropdown",
-																"response_enums": [
-																	{
-														"value": -1,
-														"display": ""
-													},
-																		{
-																				"value": 2,
-																				"display": "Yes, currently being treated by a doctor"
-																		},
-																		{
-																				"value": 1,
-																				"display": "Yes, not being treated by a doctor"
-																		},
-																		{
-																				"value": 0,
-																				"display": "No"
-																		}
-																]
-														},
-														{
-																"id": 95,
-																"slug": "preop1-28",
-																"prompt": "Do you have Peripheral Vascular Disease, sores, or ulcers on your legs?",
-																"type": "dropdown",
-																"response_enums": [
-																	{
-														"value": -1,
-														"display": ""
-													},
-																		{
-																				"value": 2,
-																				"display": "Yes, currently being treated by a doctor"
-																		},
-																		{
-																				"value": 1,
-																				"display": "Yes, not being treated by a doctor"
-																		},
-																		{
-																				"value": 0,
-																				"display": "No"
-																		}
-																]
-														},
-														{
-																"id": 96,
-																"slug": "preop1-29",
-																"prompt": "Do you have Kidney Disease/Failure?",
-																"type": "dropdown",
-																"response_enums": [
-																	{
-														"value": -1,
-														"display": ""
-													},
-																		{
-																				"value": 2,
-																				"display": "Yes, currently being treated by a doctor"
-																		},
-																		{
-																				"value": 1,
-																				"display": "Yes, not being treated by a doctor"
-																		},
-																		{
-																				"value": 0,
-																				"display": "No"
-																		}
-																]
-														} 
-												]
-
+							"value": 2,
+							"display": "Current Smoker"
 						},
 						{
-							"subsection": "Breathing Disorders",
-							"icon": "breathing_disorders",
-							"questions": [
-														{
-																"id": 97,
-																"slug": "preop1-30",
-																"prompt": "Do you have Asthma, COPD or other breathing problems?",
-																"type": "dropdown",
-																"response_enums": [
-																	{
-														"value": -1,
-														"display": ""
-													},
-																		{
-																				"value": 2,
-																				"display": "Yes, currently being treated by a doctor"
-																		},
-																		{
-																				"value": 1,
-																				"display": "Yes, not being treated by a doctor"
-																		},
-																		{
-																				"value": 0,
-																				"display": "No"
-																		}
-																]
-														},
-														{
-																"id": 98,
-																"slug": "preop1-31",
-																"prompt": "Do you have Sleep Apnea?",
-																"type": "dropdown",
-																"response_enums": [
-																	{
-														"value": -1,
-														"display": ""
-													},
-																		{
-																				"value": 2,
-																				"display": "Yes, currently being treated by a doctor"
-																		},
-																		{
-																				"value": 1,
-																				"display": "Yes, not being treated by a doctor"
-																		},
-																		{
-																				"value": 0,
-																				"display": "No"
-																		}
-																]
-														},
-												]
-
+							"value": 1,
+							"display": "Previous Smoker"
 						},
 						{
-							"subsection": "Blood or Cancer Disorders",
-							"icon": "blood_or_cancer_disorders",
-							"questions": [    
-														{
-																"id": 105,
-																"slug": "preop1-38",
-																"prompt": "Have you been diagnosed with Cancer?",
-																"type": "dropdown",
-																"response_enums": [
-																	{
-														"value": -1,
-														"display": ""
-													},
-																		{
-																				"value": 2,
-																				"display": "Current"
-																		},
-																		{
-																				"value": 1,
-																				"display": "Past"
-																		},
-																		{
-																				"value": 0,
-																				"display": "Never"
-																		}
-																]
-														},
-														{
-																"id": 106,
-																"slug": "preop1-39",
-																"prompt": "Do you have any bleeding disorders like Hemophilia, Factor or Platelet Deficiencies, Idiopathic Thrombocytopenic Purpura (ITP) or Von Willebrand's Disease?",
-																"type": "dropdown",
-																"response_enums": [
-																	{
-														"value": -1,
-														"display": ""
-													},
-																		{
-																				"value": 2,
-																				"display": "Yes, currently being treated by a doctor"
-																		},
-																		{
-																				"value": 1,
-																				"display": "Yes, not being treated by a doctor"
-																		},
-																		{
-																				"value": 0,
-																				"display": "No"
-																		}
-																]
+							"value": 0,
+							"display": "Never Smoked"
+						}
+					]
+				}
+			]
+		},
+		{
+			"subsection": "Heart and Vascular Conditions",
+			"icon": "heart_and_vascular_conditions",
+			"questions": [
+				{
+					"id": 87,
+					"slug": "preop1-20",
+					"prompt": "Have you ever had a Heart Attack/Myocardial Infarction (MI) or a Coronary Artery Bypass Surgery?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 1,
+							"display": "Yes"
+						},
+						{
+							"value": 0,
+							"display": "No"
+						}
+					]
+				},
+				{
+					"id": 88,
+					"slug": "preop1-21",
+					"prompt": "Do you have Atrial Fibrilation (A-Fib)?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 1,
+							"display": "Yes"
+						},
+						{
+							"value": 0,
+							"display": "No"
+						}
+					]
+				},
+				{
+					"id": 89,
+					"slug": "preop1-22",
+					"prompt": "Do you have Congestive Heart Failure (CHF)?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 2,
+							"display": "Yes, currently being treated by a doctor"
+						},
+						{
+							"value": 1,
+							"display": "Yes, not being treated by a doctor"
+						},
+						{
+							"value": 0,
+							"display": "No"
+						}
+					]
+				},
+				{
+					"id": 90,
+					"slug": "preop1-23",
+					"prompt": "Do you have High Cholesterol/Lipids?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 2,
+							"display": "Yes, currently being treated by a doctor"
+						},
+						{
+							"value": 1,
+							"display": "Yes, not being treated by a doctor"
+						},
+						{
+							"value": 0,
+							"display": "No"
+						}
+					]
+				},
+				{
+					"id": 91,
+					"slug": "preop1-24",
+					"prompt": "Do you have High Blood Pressure or Hypertension?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 2,
+							"display": "Yes, currently being treated by a doctor"
+						},
+						{
+							"value": 1,
+							"display": "Yes, not being treated by a doctor"
+						},
+						{
+							"value": 0,
+							"display": "No"
+						}
+					]
+				},
+				{
+					"id": 92,
+					"slug": "preop1-25",
+					"prompt": "Do you have a history of a Cerebrovascular Accident (CVA) or Stroke?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 2,
+							"display": "Yes, currently being treated by a doctor"
+						},
+						{
+							"value": 1,
+							"display": "Yes, not being treated by a doctor"
+						},
+						{
+							"value": 0,
+							"display": "No"
+						}
+					]
+				},
+				{
+					"id": 93,
+					"slug": "preop1-26",
+					"prompt": "Do you have Diabetes?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 2,
+							"display": "Yes, currently being treated by a doctor"
+						},
+						{
+							"value": 1,
+							"display": "Yes, not being treated by a doctor"
+						},
+						{
+							"value": 0,
+							"display": "No"
+						}
+					]
+				},
+				{
+					"id": 94,
+					"slug": "preop1-27",
+					"prompt": "Do you have a history of Pulmonary Embolism (PE), Deep Vein Thrombosis (DVT) or other clotting disorders?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 2,
+							"display": "Yes, currently being treated by a doctor"
+						},
+						{
+							"value": 1,
+							"display": "Yes, not being treated by a doctor"
+						},
+						{
+							"value": 0,
+							"display": "No"
+						}
+					]
+				},
+				{
+					"id": 95,
+					"slug": "preop1-28",
+					"prompt": "Do you have Peripheral Vascular Disease, sores, or ulcers on your legs?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 2,
+							"display": "Yes, currently being treated by a doctor"
+						},
+						{
+							"value": 1,
+							"display": "Yes, not being treated by a doctor"
+						},
+						{
+							"value": 0,
+							"display": "No"
+						}
+					]
+				},
+				{
+					"id": 96,
+					"slug": "preop1-29",
+					"prompt": "Do you have Kidney Disease/Failure?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 2,
+							"display": "Yes, currently being treated by a doctor"
+						},
+						{
+							"value": 1,
+							"display": "Yes, not being treated by a doctor"
+						},
+						{
+							"value": 0,
+							"display": "No"
+						}
+					]
+				} 
+			]
+		},
+		{
+			"subsection": "Breathing Disorders",
+			"icon": "breathing_disorders",
+			"questions": [
+				{
+					"id": 97,
+					"slug": "preop1-30",
+					"prompt": "Do you have Asthma, COPD or other breathing problems?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 2,
+							"display": "Yes, currently being treated by a doctor"
+						},
+						{
+							"value": 1,
+							"display": "Yes, not being treated by a doctor"
+						},
+						{
+							"value": 0,
+							"display": "No"
+						}
+					]
+				},
+				{
+					"id": 98,
+					"slug": "preop1-31",
+					"prompt": "Do you have Sleep Apnea?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 2,
+							"display": "Yes, currently being treated by a doctor"
+						},
+						{
+							"value": 1,
+							"display": "Yes, not being treated by a doctor"
+						},
+						{
+							"value": 0,
+							"display": "No"
+						}
+					]
+				}
+			]
+		},
+		{
+			"subsection": "Blood or Cancer Disorders",
+			"icon": "blood_or_cancer_disorders",
+			"questions": [    
+				{
+					"id": 105,
+					"slug": "preop1-38",
+					"prompt": "Have you been diagnosed with Cancer?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 2,
+							"display": "Current"
+						},
+						{
+							"value": 1,
+							"display": "Past"
+						},
+						{
+							"value": 0,
+							"display": "Never"
+						}
+					]
+				},
+				{
+					"id": 106,
+					"slug": "preop1-39",
+					"prompt": "Do you have any bleeding disorders like Hemophilia, Factor or Platelet Deficiencies, Idiopathic Thrombocytopenic Purpura (ITP) or Von Willebrand's Disease?",
+					"type": "dropdown",
+					"response_enums": [
+						{
+							"value": -1,
+							"display": ""
+						},
+						{
+							"value": 2,
+							"display": "Yes, currently being treated by a doctor"
+						},
+						{
+							"value": 1,
+							"display": "Yes, not being treated by a doctor"
+						},
+						{
+								"value": 0,
+								"display": "No"
+						}
+				]
 														},
 														{
 																"id": 107,
@@ -681,7 +678,7 @@
 																				"display": "No"
 																		}
 																]
-														},
+														}
 												]
 
 						},
@@ -852,7 +849,7 @@
 																		{
 																				"value": 4,
 																				"display": "Shortness of Breath"
-																		},
+																		}
 																]
 														},
 														{
