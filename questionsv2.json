@@ -22,7 +22,7 @@
             {
               "id": "0",
               "slug": "string",
-              "prompt": "What is your current height",
+              "prompt": "What is your current height?",
               "required": false,
               "input": {
                 "type": "numInput",
@@ -37,7 +37,7 @@
             {
               "id": "1",
               "slug": "string",
-              "prompt": "What is your current weight",
+              "prompt": "What is your current weight?",
               "required": false,
               "input": {
                 "type": "numInput",
