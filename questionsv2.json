@@ -1,0 +1,58 @@
+{
+  "id": "string",
+  "status": 0,
+  "createdAt": "2020-05-05T20:25:50Z",
+  "lastEvent": "2020-05-05T20:25:50Z",
+  "branding": {
+    "logo": "string",
+    "logoCaption": "string",
+    "bannerTitle": "string"
+  },
+  "sections": [
+    {
+      "order": 0,
+      "title": "string",
+      "subtext": "string",
+      "icon": "string",
+      "subsections": [
+        {
+          "title": "string",
+          "icon": "string",
+          "questions": [
+            {
+              "id": "string",
+              "slug": "string",
+              "prompt": "string",
+              "required": false,
+              "input": {
+                "type": "enumDropdown",
+                "options": {
+                  "enumns": [
+                    {
+                      "display": "",
+                      "value": -1,
+                      "order": 0,
+                      "isDefault": true
+                    },
+                    {
+                      "display": "Yes",
+                      "value": true,
+                      "order": 1,
+                      "isDefault": false
+                    },
+                    {
+                      "display": "No",
+                      "value": false,
+                      "order": 2,
+                      "isDefault": false
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
