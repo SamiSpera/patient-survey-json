@@ -1,50 +1,72 @@
 {
-  "id": "string",
-  "status": 0,
+  "id": "abc123",
+  "status": 1,
   "createdAt": "2020-05-05T20:25:50Z",
   "lastEvent": "2020-05-05T20:25:50Z",
   "branding": {
-    "logo": "string",
-    "logoCaption": "string",
+    "logo": "salyapongse",
+    "logoCaption": "Dr Aaron Salyaponse MD",
     "bannerTitle": "string"
   },
   "sections": [
     {
       "order": 0,
-      "title": "string",
-      "subtext": "string",
+      "title": "Understanding Your Medical History",
+      "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
       "icon": "string",
       "subsections": [
         {
-          "title": "string",
-          "icon": "string",
+          "title": "General",
+          "icon": "general",
           "questions": [
             {
-              "id": "string",
+              "id": "0",
               "slug": "string",
-              "prompt": "string",
+              "prompt": "What is your current height",
               "required": false,
               "input": {
-                "type": "enumDropdown",
+                "type": "numInput",
                 "options": {
-                  "enumns": [
-                    {
-                      "display": "",
-                      "value": -1,
-                      "order": 0,
-                      "isDefault": true
-                    },
+                  "dimension": "height",
+                  "recordUnit": "metric",
+                  "noMajorMinor": true,
+                  "precision": null
+                }
+              }
+            },
+            {
+              "id": "1",
+              "slug": "string",
+              "prompt": "What is your current weight",
+              "required": false,
+              "input": {
+                "type": "numInput",
+                "options": {
+                  "dimension": "weight",
+                  "recordUnit": "metric",
+                  "noMajorMinor": false,
+                  "precision": null
+                }
+              }
+            },
+            {
+              "id": "2",
+              "slug": "string",
+              "prompt": "Do you smoke?",
+              "required": false,
+              "input": {
+                "type": "boolean",
+                "options": {
+                  "enums": [
                     {
                       "display": "Yes",
                       "value": true,
-                      "order": 1,
-                      "isDefault": false
+                      "order": 0
                     },
                     {
                       "display": "No",
                       "value": false,
-                      "order": 2,
-                      "isDefault": false
+                      "order": 1
                     }
                   ]
                 }
