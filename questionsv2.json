@@ -29,7 +29,7 @@
                 "options": {
                   "dimension": "height",
                   "recordUnit": "metric",
-                  "noMajorMinor": true,
+                  "noMajorMinor": false,
                   "precision": null
                 }
               }
@@ -44,7 +44,7 @@
                 "options": {
                   "dimension": "weight",
                   "recordUnit": "metric",
-                  "noMajorMinor": false,
+                  "noMajorMinor": true,
                   "precision": null
                 }
               }
