@@ -4,9 +4,9 @@
   "createdAt": "2020-05-05T20:25:50Z",
   "lastEvent": "2020-05-05T20:25:50Z",
   "branding": {
-    "logo": "salyapongse",
+    "logo": "../images/aaron-k-salyapongse-md-1.png",
     "logoCaption": "Dr Aaron Salyapongse MD",
-    "bannerTitle": "string"
+    "bannerTitle": "Thank you for taking the time to complete this survey."
   },
   "sections": [
     {
@@ -177,7 +177,7 @@
               "input": {
                 "type": "enumCheckBox",
                 "options": {
-                  "orientation": 1,
+                  "orientation": -1,
                   "enums": [
                     {
                         "display": "None",
