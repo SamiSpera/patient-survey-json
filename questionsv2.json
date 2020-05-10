@@ -6,7 +6,8 @@
   "branding": {
     "logo": "../images/aaron-k-salyapongse-md-1.png",
     "logoCaption": "Dr Aaron Salyapongse MD",
-    "bannerTitle": "Thank you for taking the time to complete this survey."
+    "bannerTitle": "Thank you for taking the time to complete this survey.",
+    "bannerSubtext": "This way we can make informed decisions to better serve you."
   },
   "sections": [
     {
