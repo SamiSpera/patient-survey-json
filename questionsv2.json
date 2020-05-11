@@ -207,6 +207,19 @@
                   ]
                 }
               }
+            },
+            {
+              "id": "5",
+              "slug": "string",
+              "prompt": "What does your affected joint feel like in the morning?",
+              "required": false,
+              "input": {
+                "type": "enumCheckBox",
+                "options": {
+                  "maxLength": 255,
+                  "hint": "Please describe here..."
+                }
+              }
             }
           ]
         }
