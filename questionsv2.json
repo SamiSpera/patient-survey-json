@@ -214,7 +214,7 @@
               "prompt": "What does your affected joint feel like in the morning?",
               "required": false,
               "input": {
-                "type": "enumCheckBox",
+                "type": "textBox",
                 "options": {
                   "maxLength": 255,
                   "hint": "Please describe here..."
