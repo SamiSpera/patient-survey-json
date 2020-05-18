@@ -29,7 +29,9 @@
                 "type": "availability",
                 "options": {
                   "availableDays": [],
-                  "unavailableDays": [],
+                  "unavailableDays": [
+                    "moment('2020-05-19').toDate()"
+                  ],
                   "year": 2020,
                   "month": "May"
                 }
