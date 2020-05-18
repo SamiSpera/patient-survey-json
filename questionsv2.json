@@ -28,8 +28,10 @@
                "input": {
                 "type": "availability",
                 "options": {
-                   "availableDays": [],
-                   "unavailableDays": []
+                  "availableDays": [],
+                  "unavailableDays": [],
+                  "year": 2020,
+                  "month": "May"
                 }
               }
             }
