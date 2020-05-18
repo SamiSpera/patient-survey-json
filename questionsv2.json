@@ -232,8 +232,8 @@
       "icon": null,
       "subsections": [
        {
-         "title": "General",
-          "icon": "general",
+         "title": "Functional",
+          "icon": "functional",
           "questions": [
              {
               "id": "6",
@@ -259,8 +259,8 @@
       "icon": null,
       "subsections": [
        {
-         "title": "General",
-          "icon": "general",
+         "title": "Emotional",
+          "icon": "emotional",
           "questions": [
              {
               "id": "6",
