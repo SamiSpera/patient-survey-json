@@ -224,6 +224,33 @@
           ]
         }
       ]
+    },
+    {
+      "order": 2,
+      "title": "Functional",
+      "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
+      "icon": null,
+      "subsections": [
+       {
+         "title": "General",
+          "icon": "general",
+          "questions": [
+             {
+              "id": "6",
+              "slug": "string",
+              "prompt": "What does your affected joint feel like in the morning?",
+              "required": true,
+              "input": {
+                "type": "textBox",
+                "options": {
+                  "maxLength": 255,
+                  "hint": "Please describe here..."
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
