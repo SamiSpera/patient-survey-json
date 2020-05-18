@@ -1,4 +1,4 @@
-  
+
 {
   "id": "abc123",
   "status": 1,
@@ -13,7 +13,7 @@
   "sections": [
     {
       "order": 0,
-      "title": "Understanding Your Medical History 1",
+      "title": "General",
       "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
       "icon": null,
       "subsections": [
@@ -24,78 +24,38 @@
             {
               "id": "0",
               "slug": "string",
-              "prompt": "What is your current height?",
+              "prompt": "When would you be available?",
               "required": false,
               "input": {
-                "type": "numInput",
+                "type": "availability",
                 "options": {
-                  "dimension": "height",
-                  "recordUnit": "metric",
-                  "noMajorMinor": false,
-                  "precision": null
-                }
-              }
-            },
-            {
-              "id": "1",
-              "slug": "string",
-              "prompt": "What is your current weight?",
-              "required": false,
-              "input": {
-                "type": "numInput",
-                "options": {
-                  "dimension": "weight",
-                  "recordUnit": "metric",
-                  "noMajorMinor": true,
-                  "precision": null
-                }
-              }
-            },
-            {
-              "id": "2",
-              "slug": "string",
-              "prompt": "Do you smoke?",
-              "required": false,
-              "input": {
-                "type": "boolean",
-                "options": {
-                  "enums": [
-                    {
-                      "display": "Yes",
-                      "value": true,
-                      "order": 0
-                    },
-                    {
-                      "display": "No",
-                      "value": false,
-                      "order": 1
-                    }
+                  "year": 2020,
+                  "month": "May",
+                  "unavailableDays": [
+                      "moment('2020-05-20').toDate()",
+                      "moment('2020-05-22').toDate()",
+                      "moment('2020-05-25').toDate()"
+                   ],
+                  "availableDays": [
+                      "moment('2020-05-04').toDate()",
+                      "moment('2020-05-12').toDate()",
+                      "moment('2020-05-28').toDate()",
+                      "moment('2020-05-06').toDate()",
+                      "moment('2020-05-14').toDate()",
+                      "moment('2020-05-18').toDate()",
+                      "moment('2020-05-26').toDate()",
+                      "moment('2020-05-08').toDate()"
                   ]
                 }
               }
             },
-            {
-              "id": "3",
-              "slug": "string",
-              "prompt": "On a scale of 1 to 10 how much pain are you feeling in your affected joint? 10 being the worst",
-              "required": false,
-              "input": {
-                "type": "rangeBar",
-                "options": {
-                  "min": 0.00,
-                  "max": 10.00,
-                  "step": 1.00,
-                  "order": 1
-                }
-              }
-            }
           ]
         }
       ]
     },
     {
       "order": 1,
-      "title": "Understanding Your Medical History 2",
+      "title": "Medical",
       "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
       "icon": null,
       "subsections": [
