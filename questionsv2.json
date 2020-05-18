@@ -23,7 +23,7 @@
             {
               "id": "0",
               "slug": "string",
-              "prompt": "When will you be availble?",
+              "prompt": "When will you be available?",
                "required": false,
                "input": {
                 "type": "availability",
