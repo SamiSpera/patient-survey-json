@@ -52,7 +52,7 @@
           "icon": "general",
           "questions": [
             {
-              "id": "0",
+              "id": "1",
               "slug": "string",
               "prompt": "What is your current height?",
               "required": false,
@@ -67,7 +67,7 @@
               }
             },
             {
-              "id": "1",
+              "id": "2",
               "slug": "string",
               "prompt": "What is your current weight?",
               "required": false,
@@ -82,7 +82,7 @@
               }
             },
             {
-              "id": "2",
+              "id": "3",
               "slug": "string",
               "prompt": "Do you smoke?",
               "required": false,
@@ -105,7 +105,7 @@
               }
             },
             {
-              "id": "3",
+              "id": "4",
               "slug": "string",
               "prompt": "On a scale of 1 to 10 how much pain are you feeling in your affected joint? 10 being the worst",
               "required": false,
@@ -134,7 +134,7 @@
           "icon": "general",
           "questions": [
             {
-              "id": "0",
+              "id": "5",
               "slug": "string",
               "prompt": "What is your current height?",
               "required": false,
@@ -149,7 +149,7 @@
               }
             },
             {
-              "id": "1",
+              "id": "6",
               "slug": "string",
               "prompt": "What is your current weight?",
               "required": false,
@@ -164,7 +164,7 @@
               }
             },
             {
-              "id": "2",
+              "id": "7",
               "slug": "string",
               "prompt": "Do you smoke?",
               "required": false,
@@ -187,7 +187,7 @@
               }
             },
             {
-              "id": "3",
+              "id": "8",
               "slug": "string",
               "prompt": "On a scale of 1 to 10 how much pain are you feeling in your affected joint? 10 being the worst",
               "required": false,
@@ -202,7 +202,7 @@
               }
             },
             {
-              "id": "4",
+              "id": "9",
               "slug": "string",
               "prompt": "Which symptoms have you experienced?",
               "required": false,
@@ -240,7 +240,7 @@
               }
             },
             {
-              "id": "5",
+              "id": "10",
               "slug": "string",
               "prompt": "What does your affected joint feel like in the morning?",
               "required": false,
