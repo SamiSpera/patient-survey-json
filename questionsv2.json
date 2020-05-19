@@ -312,6 +312,38 @@
                   ]
                 }
               }
+            },
+            {
+              "id": "11",
+              "slug": "string",
+              "prompt": "Do you smoke?",
+              "required": true,
+              "input": {
+                "type": "enumRadio",
+                "options": {
+                  "orientation": -1,
+                  "enums": [
+                    {
+                      "display": "Previously",
+                      "value": 0,
+                      "order": 1,
+                      "isDefault": false
+                    },
+                    {
+                      "display": "Currently",
+                      "value": 1,
+                      "order": 2,
+                      "isDefault": false
+                    },
+                    {
+                      "display": "Never Smoked",
+                      "value": 2,
+                      "order": 3,
+                      "isDefault": false
+                    }
+                  ]
+                }
+              }
             }
           ]
         }
