@@ -12,12 +12,12 @@
   "sections": [
     {
       "order": 2,
-      "title": "General",
+      "title": "Availability",
       "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
       "icon": null,
       "subsections": [
         {
-          "title": "General",
+          "title": "Availability",
           "icon": "general",
           "questions": [
             {
@@ -107,7 +107,7 @@
             {
               "id": "4",
               "slug": "string",
-              "prompt": "On a scale of 1 to 10 how much pain are you feeling in your affected joint? 10 being the worst",
+              "prompt": "On a scale of 0 to 10 how much pain are you feeling in your affected joint? 10 being the worst",
               "required": false,
               "input": {
                 "type": "rangeBar",
