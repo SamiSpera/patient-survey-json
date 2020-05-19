@@ -251,6 +251,43 @@
                   "hint": "Please describe here..."
                 }
               }
+            },
+            {
+              "id": "11",
+              "slug": "string",
+              "prompt": "Have you been diagnosed with Hypothyroidism?",
+              "required": true,
+              "input": {
+                "type": "enumDropdown",
+                "options": {
+                  "enums": [
+                    {
+                      "display": "",
+                      "value": -1,
+                      "order": 0,
+                      "isDefault": true
+                    },
+                    {
+                      "display": "Uncontrolled",
+                      "value": 0,
+                      "order": 1,
+                      "isDefault": false
+                    },
+                    {
+                      "display": "Controlled",
+                      "value": 1,
+                      "order": 2,
+                      "isDefault": false
+                    },
+                    {
+                      "display": "Another Really Really Really Long Worded Option",
+                      "value": 2,
+                      "order": 3,
+                      "isDefault": false
+                    }
+                  ]
+                }
+              }
             }
           ]
         }
