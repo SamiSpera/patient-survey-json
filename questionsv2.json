@@ -24,7 +24,7 @@
               "id": "0",
               "slug": "string",
               "prompt": "When will you be available?",
-               "required": false,
+               "required": true,
                "input": {
                 "type": "availability",
                 "options": {
@@ -55,7 +55,7 @@
               "id": "1",
               "slug": "string",
               "prompt": "What is your current height?",
-              "required": false,
+              "required": true,
               "input": {
                 "type": "numInput",
                 "options": {
@@ -70,7 +70,7 @@
               "id": "2",
               "slug": "string",
               "prompt": "What is your current weight?",
-              "required": false,
+              "required": true,
               "input": {
                 "type": "numInput",
                 "options": {
@@ -108,7 +108,7 @@
               "id": "4",
               "slug": "string",
               "prompt": "On a scale of 0 to 10 how much pain are you feeling in your affected joint? 10 being the worst",
-              "required": false,
+              "required": true,
               "input": {
                 "type": "rangeBar",
                 "options": {
@@ -137,7 +137,7 @@
               "id": "5",
               "slug": "string",
               "prompt": "What is your current height?",
-              "required": false,
+              "required": true,
               "input": {
                 "type": "numInput",
                 "options": {
@@ -152,7 +152,7 @@
               "id": "6",
               "slug": "string",
               "prompt": "What is your current weight?",
-              "required": false,
+              "required": true,
               "input": {
                 "type": "numInput",
                 "options": {
@@ -167,7 +167,7 @@
               "id": "7",
               "slug": "string",
               "prompt": "Do you smoke?",
-              "required": false,
+              "required": true,
               "input": {
                 "type": "boolean",
                 "options": {
@@ -205,7 +205,7 @@
               "id": "9",
               "slug": "string",
               "prompt": "Which symptoms have you experienced?",
-              "required": false,
+              "required": true,
               "input": {
                 "type": "enumCheckBox",
                 "options": {
@@ -243,7 +243,7 @@
               "id": "10",
               "slug": "string",
               "prompt": "What does your affected joint feel like in the morning?",
-              "required": false,
+              "required": true,
               "input": {
                 "type": "textBox",
                 "options": {
