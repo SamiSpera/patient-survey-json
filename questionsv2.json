@@ -12,13 +12,13 @@
   "sections": [
     {
       "order": 2,
-      "title": "Availability",
+      "title": "General",
       "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
-      "icon": null,
+      "icon": 'general',
       "subsections": [
         {
           "title": "Availability",
-          "icon": "general",
+          "icon": null,
           "questions": [
             {
               "id": "0",
@@ -36,21 +36,7 @@
                   "month": "May"
                 }
               }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "order": 0,
-      "title": "Medical",
-      "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
-      "icon": null,
-      "subsections": [
-        {
-          "title": "General",
-          "icon": "general",
-          "questions": [
+            },
             {
               "id": "1",
               "slug": "string",
@@ -82,9 +68,55 @@
               }
             },
             {
-              "id": "3",
+              "id": "12",
               "slug": "string",
               "prompt": "Do you smoke?",
+              "required": true,
+              "input": {
+                "type": "enumRadio",
+                "options": {
+                  "orientation": -1,
+                  "enums": [
+                    {
+                      "display": "Previously",
+                      "value": 0,
+                      "order": 1,
+                      "isDefault": false
+                    },
+                    {
+                      "display": "Currently",
+                      "value": 1,
+                      "order": 2,
+                      "isDefault": false
+                    },
+                    {
+                      "display": "Never Smoked",
+                      "value": 2,
+                      "order": 3,
+                      "isDefault": false
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 0,
+      "title": "Medical",
+      "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
+      "icon": "blood_or_cancer_disorders",
+      "subsections": [
+        {
+          "title": "General",
+          "icon": "general",
+          "questions": [
+            {
+              "id": "3",
+              "slug": "string",
+              "prompt": "Do you currently live alone?",
               "required": false,
               "input": {
                 "type": "boolean",
@@ -307,38 +339,6 @@
                       "display": "Run Off The Page",
                       "value": 3,
                       "order": 4,
-                      "isDefault": false
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "id": "12",
-              "slug": "string",
-              "prompt": "Do you smoke?",
-              "required": true,
-              "input": {
-                "type": "enumRadio",
-                "options": {
-                  "orientation": -1,
-                  "enums": [
-                    {
-                      "display": "Previously",
-                      "value": 0,
-                      "order": 1,
-                      "isDefault": false
-                    },
-                    {
-                      "display": "Currently",
-                      "value": 1,
-                      "order": 2,
-                      "isDefault": false
-                    },
-                    {
-                      "display": "Never Smoked",
-                      "value": 2,
-                      "order": 3,
                       "isDefault": false
                     }
                   ]
