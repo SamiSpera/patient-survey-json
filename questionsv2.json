@@ -14,7 +14,7 @@
       "order": 2,
       "title": "General",
       "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
-      "icon": 'general',
+      "icon": "general",
       "subsections": [
         {
           "title": "Availability",
