@@ -11,151 +11,6 @@
   },
   "sections": [
     {
-      "order": 2,
-      "title": "General",
-      "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
-      "icon": "general.svg",
-      "subsections": [
-        {
-          "title": "Availability",
-          "icon": null,
-          "questions": [
-            {
-              "id": "0",
-              "slug": "string",
-              "prompt": "When will you be available?",
-               "required": true,
-               "input": {
-                "type": "availability",
-                "options": {
-                  "availableDays": [],
-                  "unavailableDays": [
-                    "2020-05-22T14:48:00.000Z"
-                  ],
-                  "year": 2020,
-                  "month": "May"
-                }
-              }
-            },
-            {
-              "id": "1",
-              "slug": "string",
-              "prompt": "What is your current height?",
-              "required": true,
-              "input": {
-                "type": "numInput",
-                "options": {
-                  "dimension": "height",
-                  "recordUnit": "metric",
-                  "noMajorMinor": false,
-                  "precision": null
-                }
-              }
-            },
-            {
-              "id": "2",
-              "slug": "string",
-              "prompt": "What is your current weight?",
-              "required": true,
-              "input": {
-                "type": "numInput",
-                "options": {
-                  "dimension": "weight",
-                  "recordUnit": "metric",
-                  "noMajorMinor": true,
-                  "precision": null
-                }
-              }
-            },
-            {
-              "id": "12",
-              "slug": "string",
-              "prompt": "Do you smoke?",
-              "required": true,
-              "input": {
-                "type": "enumRadio",
-                "options": {
-                  "orientation": -1,
-                  "enums": [
-                    {
-                      "display": "Previously",
-                      "value": 0,
-                      "order": 1,
-                      "isDefault": false
-                    },
-                    {
-                      "display": "Currently",
-                      "value": 1,
-                      "order": 2,
-                      "isDefault": false
-                    },
-                    {
-                      "display": "Never Smoked",
-                      "value": 2,
-                      "order": 3,
-                      "isDefault": false
-                    }
-                  ]
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "order": 0,
-      "title": "Medical",
-      "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
-      "icon": "blood_or_cancer_disorders.svg",
-      "subsections": [
-        {
-          "title": "General",
-          "icon": "general.svg",
-          "questions": [
-            {
-              "id": "3",
-              "slug": "string",
-              "prompt": "Do you currently live alone?",
-              "required": false,
-              "input": {
-                "type": "boolean",
-                "options": {
-                  "enums": [
-                    {
-                      "display": "Yes",
-                      "value": true,
-                      "order": 0
-                    },
-                    {
-                      "display": "No",
-                      "value": false,
-                      "order": 1
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "id": "4",
-              "slug": "string",
-              "prompt": "On a scale of 0 to 10 how much pain are you feeling in your affected joint? 10 being the worst",
-              "required": true,
-              "input": {
-                "type": "rangeBar",
-                "options": {
-                  "min": 0.00,
-                  "max": 10.00,
-                  "step": 1.00,
-                  "order": 1
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "order": 1,
       "title": "Understanding Your Medical History 2",
       "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
@@ -339,6 +194,151 @@
                       "display": "Run Off The Page",
                       "value": 3,
                       "order": 4,
+                      "isDefault": false
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 0,
+      "title": "Medical",
+      "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
+      "icon": "blood_or_cancer_disorders.svg",
+      "subsections": [
+        {
+          "title": "General",
+          "icon": "general.svg",
+          "questions": [
+            {
+              "id": "3",
+              "slug": "string",
+              "prompt": "Do you currently live alone?",
+              "required": false,
+              "input": {
+                "type": "boolean",
+                "options": {
+                  "enums": [
+                    {
+                      "display": "Yes",
+                      "value": true,
+                      "order": 0
+                    },
+                    {
+                      "display": "No",
+                      "value": false,
+                      "order": 1
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "4",
+              "slug": "string",
+              "prompt": "On a scale of 0 to 10 how much pain are you feeling in your affected joint? 10 being the worst",
+              "required": true,
+              "input": {
+                "type": "rangeBar",
+                "options": {
+                  "min": 0.00,
+                  "max": 10.00,
+                  "step": 1.00,
+                  "order": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": "General",
+      "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
+      "icon": "general.svg",
+      "subsections": [
+        {
+          "title": "Availability",
+          "icon": null,
+          "questions": [
+            {
+              "id": "0",
+              "slug": "string",
+              "prompt": "When will you be available?",
+               "required": true,
+               "input": {
+                "type": "availability",
+                "options": {
+                  "availableDays": [],
+                  "unavailableDays": [
+                    "2020-05-22T14:48:00.000Z"
+                  ],
+                  "year": 2020,
+                  "month": "May"
+                }
+              }
+            },
+            {
+              "id": "1",
+              "slug": "string",
+              "prompt": "What is your current height?",
+              "required": true,
+              "input": {
+                "type": "numInput",
+                "options": {
+                  "dimension": "height",
+                  "recordUnit": "metric",
+                  "noMajorMinor": false,
+                  "precision": null
+                }
+              }
+            },
+            {
+              "id": "2",
+              "slug": "string",
+              "prompt": "What is your current weight?",
+              "required": true,
+              "input": {
+                "type": "numInput",
+                "options": {
+                  "dimension": "weight",
+                  "recordUnit": "metric",
+                  "noMajorMinor": true,
+                  "precision": null
+                }
+              }
+            },
+            {
+              "id": "12",
+              "slug": "string",
+              "prompt": "Do you smoke?",
+              "required": true,
+              "input": {
+                "type": "enumRadio",
+                "options": {
+                  "orientation": -1,
+                  "enums": [
+                    {
+                      "display": "Previously",
+                      "value": 0,
+                      "order": 1,
+                      "isDefault": false
+                    },
+                    {
+                      "display": "Currently",
+                      "value": 1,
+                      "order": 2,
+                      "isDefault": false
+                    },
+                    {
+                      "display": "Never Smoked",
+                      "value": 2,
+                      "order": 3,
                       "isDefault": false
                     }
                   ]
