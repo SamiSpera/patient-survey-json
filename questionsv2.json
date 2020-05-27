@@ -14,7 +14,7 @@
       "order": 2,
       "title": "General",
       "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
-      "icon": "general",
+      "icon": "general.svg",
       "subsections": [
         {
           "title": "Availability",
@@ -107,11 +107,11 @@
       "order": 0,
       "title": "Medical",
       "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
-      "icon": "blood_or_cancer_disorders",
+      "icon": "blood_or_cancer_disorders.svg",
       "subsections": [
         {
           "title": "General",
-          "icon": "general",
+          "icon": "general.svg",
           "questions": [
             {
               "id": "3",
@@ -159,11 +159,11 @@
       "order": 1,
       "title": "Understanding Your Medical History 2",
       "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
-      "icon": "aaron-k-salyapongse-md-1",
+      "icon": "aaron-k-salyapongse-md-1.png",
       "subsections": [
         {
           "title": "General",
-          "icon": "general",
+          "icon": "general.svg",
           "questions": [
             {
               "id": "5",
