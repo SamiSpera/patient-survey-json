@@ -22,7 +22,7 @@
           "icon": "general.svg",
           "questions": [
             {
-              "id": "5",
+              "id": "medical-5",
               "order": 0,
               "slug": "string",
               "prompt": "What is your current height?",
@@ -38,7 +38,7 @@
               }
             },
             {
-              "id": "6",
+              "id": "medical-6",
               "order": 1,
               "slug": "string",
               "prompt": "What is your current weight?",
@@ -54,7 +54,7 @@
               }
             },
             {
-              "id": "7",
+              "id": "medical-7",
               "order": 2,
               "slug": "string",
               "prompt": "Do you smoke?",
@@ -78,7 +78,7 @@
               }
             },
             {
-              "id": "8",
+              "id": "medical-8",
               "order": 3,
               "slug": "string",
               "prompt": "On a scale of 1 to 10 how much pain are you feeling in your affected joint? 10 being the worst",
@@ -94,7 +94,7 @@
               }
             },
             {
-              "id": "10",
+              "id": "medical-10",
               "order": 4,
               "slug": "string",
               "prompt": "What does your affected joint feel like in the morning?",
@@ -108,7 +108,7 @@
               }
             },
             {
-              "id": "11",
+              "id": "medical-11",
               "order": 5,
               "slug": "string",
               "prompt": "Have you been diagnosed with Hypothyroidism?",
@@ -177,7 +177,7 @@
           "icon": null,
           "questions": [
             {
-              "id": "25",
+              "id": "medical-25",
               "order": 6,
               "slug": "string",
               "prompt": "What is your height?",
@@ -200,7 +200,7 @@
           "icon": null,
           "questions": [
             {
-              "id": "27",
+              "id": "medical-27",
               "order": 7,
               "slug": "string",
               "prompt": "What is your height?",
@@ -231,7 +231,7 @@
           "icon": null,
           "questions": [
             {
-              "id": "3",
+              "id": "medical-3",
               "order": 8,
               "slug": "string",
               "prompt": "Do you currently live alone?",
@@ -255,7 +255,7 @@
               }
             },
             {
-              "id": "4",
+              "id": "medical-4",
               "order": 9,
               "slug": "string",
               "prompt": "On a scale of 0 to 10 how much pain are you feeling in your affected joint? 10 being the worst",
@@ -286,7 +286,7 @@
           "icon": null,
           "questions": [
             {
-              "id": "0",
+              "id": "medical-0",
               "order": 10,
               "slug": "string",
               "prompt": "When will you be available?",
@@ -304,7 +304,7 @@
               }
             },
             {
-              "id": "1",
+              "id": "medical-1",
               "order": 11,
               "slug": "string",
               "prompt": "What is your current height?",
@@ -320,7 +320,7 @@
               }
             },
             {
-              "id": "2",
+              "id": "medical-2",
               "order": 12,
               "slug": "string",
               "prompt": "What is your current weight?",
@@ -336,7 +336,7 @@
               }
             },
             {
-              "id": "9",
+              "id": "medical-9",
               "order": 13,
               "slug": "string",
               "prompt": "Which symptoms have you experienced?",
@@ -375,7 +375,7 @@
               }
             },
             {
-              "id": "12",
+              "id": "medical-12",
               "order": 14,
               "slug": "string",
               "prompt": "Do you smoke?",
