@@ -163,6 +163,27 @@
               }
             }
           ]
+        },
+        {
+          "title": "Subsection 2",
+          "icon": null,
+          "questions": [
+            {
+              "id": "25",
+              "slug": "string",
+              "prompt": "What is your height?",
+              "required": false,
+              "input": {
+                 "type": "numInput",
+                "options": {
+                  "dimension": "height",
+                  "recordUnit": "metric",
+                  "noMajorMinor": false,
+                  "precision": 3
+                }
+              }
+            }
+          ]
         }
       ]
     },
