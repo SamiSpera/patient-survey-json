@@ -161,6 +161,152 @@
                   ]
                 }
               }
+            },
+            {
+          "title": "Section 2",
+          "icon": null,
+          "questions": [
+            {
+              "id": "20",
+              "slug": "string",
+              "prompt": "What is your current height?",
+              "required": true,
+              "input": {
+                "type": "numInput",
+                "options": {
+                  "dimension": "height",
+                  "recordUnit": "metric",
+                  "noMajorMinor": false,
+                  "precision": null
+                }
+              }
+            },
+            {
+              "id": "21",
+              "slug": "string",
+              "prompt": "What is your current weight?",
+              "required": true,
+              "input": {
+                "type": "numInput",
+                "options": {
+                  "dimension": "weight",
+                  "recordUnit": "metric",
+                  "noMajorMinor": true,
+                  "precision": null
+                }
+              }
+            },
+            {
+              "id": "22",
+              "slug": "string",
+              "prompt": "Do you smoke?",
+              "required": true,
+              "input": {
+                "type": "boolean",
+                "options": {
+                  "enums": [
+                    {
+                      "display": "Yes",
+                      "value": true,
+                      "order": 0
+                    },
+                    {
+                      "display": "No",
+                      "value": false,
+                      "order": 1
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "23",
+              "slug": "string",
+              "prompt": "On a scale of 1 to 10 how much pain are you feeling in your affected joint? 10 being the worst",
+              "required": false,
+              "input": {
+                "type": "rangeBar",
+                "options": {
+                  "min": 0.00,
+                  "max": 10.00,
+                  "step": 1.00,
+                  "order": 1
+                }
+              }
+            },
+            {
+              "id": "24",
+              "slug": "string",
+              "prompt": "What does your affected joint feel like in the morning?",
+              "required": true,
+              "input": {
+                "type": "textBox",
+                "options": {
+                  "maxLength": 255,
+                  "hint": "Please describe here..."
+                }
+              }
+            },
+            {
+              "id": "25",
+              "slug": "string",
+              "prompt": "Have you been diagnosed with Hypothyroidism?",
+              "required": true,
+              "input": {
+                "type": "enumDropdown",
+                "options": {
+                  "enums": [
+                    {
+                      "display": "",
+                      "value": -1,
+                      "order": 0,
+                      "isDefault": true
+                    },
+                    {
+                      "display": "Uncontrolled",
+                      "value": 0,
+                      "order": 1,
+                      "isDefault": false
+                    },
+                    {
+                      "display": "Controlled",
+                      "value": 1,
+                      "order": 2,
+                      "isDefault": false
+                    },
+                    {
+                      "display": "Another Really Really Really Long Worded Option",
+                      "value": 2,
+                      "order": 3,
+                      "isDefault": false
+                    },
+                    {
+                      "display": "More Options for testing",
+                      "value": 3,
+                      "order": 4,
+                      "isDefault": false
+                    },
+                    {
+                      "display": "What Happens",
+                      "value": 3,
+                      "order": 4,
+                      "isDefault": false
+                    },
+                    {
+                      "display": "If the Options",
+                      "value": 2,
+                      "order": 3,
+                      "isDefault": false
+                    },
+                    {
+                      "display": "Run Off The Page",
+                      "value": 3,
+                      "order": 4,
+                      "isDefault": false
+                    }
+                  ]
+                }
+              }
             }
           ]
         }
