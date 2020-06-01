@@ -193,84 +193,6 @@
               }
             }
           ]
-        },
-        {
-          "order": 2,
-          "title": "Subsection 3",
-          "icon": null,
-          "questions": [
-            {
-              "id": "medical-27",
-              "order": 7,
-              "slug": "string",
-              "prompt": "What is your height?",
-              "required": true,
-              "input": {
-                 "type": "numInput",
-                "options": {
-                  "dimension": "height",
-                  "recordUnit": "metric",
-                  "noMajorMinor": false,
-                  "precision": 3
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "order": 0,
-      "title": "Medical",
-      "subtext": "Dr.Salyapongse needs to know about your health to better address your needs in and out of the operating room.",
-      "icon": null,
-      "subsections": [
-        {
-          "order": 3,
-          "title": "General",
-          "icon": null,
-          "questions": [
-            {
-              "id": "medical-3",
-              "order": 8,
-              "slug": "string",
-              "prompt": "Do you currently live alone?",
-              "required": false,
-              "input": {
-                "type": "boolean",
-                "options": {
-                  "enums": [
-                    {
-                      "display": "Yes",
-                      "value": true,
-                      "order": 0
-                    },
-                    {
-                      "display": "No",
-                      "value": false,
-                      "order": 1
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "id": "medical-4",
-              "order": 9,
-              "slug": "string",
-              "prompt": "On a scale of 0 to 10 how much pain are you feeling in your affected joint? 10 being the worst",
-              "required": true,
-              "input": {
-                "type": "rangeBar",
-                "options": {
-                  "min": 0.00,
-                  "max": 10.00,
-                  "step": 1.00,
-                  "order": 1
-                }
-              }
-            }
-          ]
         }
       ]
     },
@@ -300,38 +222,6 @@
                   ],
                   "year": 2020,
                   "month": "May"
-                }
-              }
-            },
-            {
-              "id": "medical-1",
-              "order": 11,
-              "slug": "string",
-              "prompt": "What is your current height?",
-              "required": true,
-              "input": {
-                "type": "numInput",
-                "options": {
-                  "dimension": "height",
-                  "recordUnit": "metric",
-                  "noMajorMinor": false,
-                  "precision": null
-                }
-              }
-            },
-            {
-              "id": "medical-2",
-              "order": 12,
-              "slug": "string",
-              "prompt": "What is your current weight?",
-              "required": true,
-              "input": {
-                "type": "numInput",
-                "options": {
-                  "dimension": "weight",
-                  "recordUnit": "metric",
-                  "noMajorMinor": true,
-                  "precision": null
                 }
               }
             },
