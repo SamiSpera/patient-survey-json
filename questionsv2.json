@@ -181,7 +181,7 @@
               "order": 6,
               "slug": "string",
               "prompt": "What is your height?",
-              "required": false,
+              "required": true,
               "input": {
                  "type": "numInput",
                 "options": {
@@ -204,7 +204,7 @@
               "order": 7,
               "slug": "string",
               "prompt": "What is your height?",
-              "required": false,
+              "required": true,
               "input": {
                  "type": "numInput",
                 "options": {
