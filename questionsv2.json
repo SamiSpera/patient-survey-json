@@ -4,10 +4,10 @@
   "createdAt": "2020-05-05T20:25:50Z",
   "lastEvent": "2020-05-05T20:25:50Z",
   "branding": {
-    "logo": "../images/aaron-k-salyapongse-md-1.png",
+    "logo": null,
     "logoCaption": "Dr Aaron Salyapongse MD",
     "bannerTitle": "Thank you for taking the time to complete this survey.",
-    "bannerSubtext": "With your help we can make informed decisions to better serve you.",
+    "bannerSubtext": "",
     "thankYouTitle": "Thank you for completing Dr.Salyapongse's survery.",
     "thankYouSubtext": "Our team will be reaching out to you shortly."
   },
