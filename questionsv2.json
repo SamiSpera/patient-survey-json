@@ -55,8 +55,10 @@
                   "dimension": "weight",
                   "recordUnit": "metric",
                   "noMajorMinor": true,
-                  "min": 1,
-                  "max": 1000,
+                  "minorMin": null,
+                  "minorMax": null,
+                  "majorMin": 1,
+                  "majorMax": 1000,
                   "precision": null
                 }
               }
