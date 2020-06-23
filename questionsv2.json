@@ -36,9 +36,9 @@
                   "recordUnit": "metric",
                   "noMajorMinor": false,
                   "minorMin": 0,
-                  "minorMax": 7,
+                  "minorMax": 11,
                   "majorMin": 0,
-                  "majorMax": 11,
+                  "majorMax": 7,
                   "precision": null
                 }
               }
