@@ -55,6 +55,8 @@
                   "dimension": "weight",
                   "recordUnit": "metric",
                   "noMajorMinor": true,
+                  "min": 1,
+                  "max": 1000,
                   "precision": null
                 }
               }
@@ -194,6 +196,10 @@
                   "dimension": "height",
                   "recordUnit": "metric",
                   "noMajorMinor": false,
+                  "minorMin": 0,
+                  "minorMax": 7,
+                  "majorMin": 0,
+                  "majorMax": 11,
                   "precision": 3
                 }
               }
