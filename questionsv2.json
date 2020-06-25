@@ -21,7 +21,7 @@
             {
                "order":0,
                "title":"Availability",
-               "icon":"availability.svg",
+               "icon": null,
                "questions":[
                   {
                      "id":"",
@@ -54,7 +54,7 @@
                   {
                      "order":0,
                      "title":"Lifestyle",
-                     "icon":"lifestyle.svg",
+                     "icon":"lifestyle",
                      "questions":[
                         {
                            "id":"",
@@ -212,7 +212,7 @@
                   {
                      "order":2,
                      "title":"Functionality",
-                     "icon":"functionality.svg",
+                     "icon":"functionality",
                      "questions":[
                         {
                            "id":"",
@@ -386,7 +386,7 @@
                   {
                      "order":0,
                      "title":"General",
-                     "icon":"general.svg",
+                     "icon":"general",
                      "questions":[
                         {
                            "id":"",
@@ -469,7 +469,7 @@
                   {
                      "order":1,
                      "title":"Heart and Vascular Conditions",
-                     "icon":"heart_and_vascular_conditions.svg",
+                     "icon":"heart_and_vascular_conditions",
                      "questions":[
                         {
                            "id":"",
@@ -730,7 +730,7 @@
                   {
                      "order":11,
                      "title":"Breathing Disorders",
-                     "icon":"breathing_disorders.svg",
+                     "icon":"breathing_disorders",
                      "questions":[
                         {
                            "id":"",
